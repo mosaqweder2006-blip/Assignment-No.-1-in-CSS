@@ -1,0 +1,358 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Cairo", sans-serif;
+}
+
+header{
+    background-color: #0b2545;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.box-logo{
+    color: white;
+    display: flex;
+}
+
+.logo{
+    width: 80px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.small{
+    color: #f3c614;
+}
+
+.links-header{
+    margin-top: 15px;
+}
+
+.links-header-a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.link-button{
+    background-color: #f3c614;
+    color: rgb(11, 37, 69);
+    padding: 5px 15px;
+    font-weight: 800;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  90vh;
+    color: white;
+    background-color: #1c4981;
+}
+
+.box-main{
+    text-align: center;
+    width: 50%;
+}
+
+.box-main-span{
+    background-color: rgba(193, 174, 174, 0.185);
+    padding: 10px 25px;
+    border-radius: 1px;
+    font-size: 14px;
+    border: solid 0.5px  rgba(211, 202, 202, 0.392);
+}
+
+.box-main h1{
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.box-main p{
+    margin-top: 20px;
+    color: gainsboro;
+}
+
+.links-main{
+    margin-top: 70px;
+}
+
+.links-main-button-right{
+    color: #0b2545;
+    background-color: #f3c614;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 2px;
+    margin-left: 40px;
+    box-shadow: 0px 1px 2px yellow;
+}
+
+.links-main-button-left{
+    color: white;
+    border: solid 2px rgb(213, 206, 206);
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-weight: 600;
+
+}
+
+.abuot{
+    height: 70vh;
+    margin: 150px 200px;
+}
+
+.abuot-us{
+    background-color: rgba(193, 174, 174, 0.185);
+    color: #1c4981;
+    font-weight: 700;
+    padding: 8px 17px;
+    border-radius: 2px;    
+}
+
+.abuot h2{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.service{
+    color: #1c4981;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.abuot-pre{
+    color: gray;
+}
+
+.lists{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    list-style: none;
+    font-weight: 800;
+    color: #0b2545;
+}
+
+.lists-div{
+    width: 20px;
+    height: 20px;
+    /* border: 3px solid rgb(245, 245, 121); */
+    background-color: rgb(245, 245, 121);
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.box-link-join{
+    margin-top: 30px;
+}
+
+.link-join{
+    text-decoration: none;
+    color: white;
+    background-color: #1c4981;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+
+.technology{
+    background-color: #1c4981;
+    height: 100vh;
+}
+
+.box-technology{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.text-technology{
+    color: #f3c614;
+    background-color: rgba(193, 174, 174, 0.185);
+    padding: 10px 35px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+}
+
+.box-text-technology{
+    margin-bottom: 30px;
+}
+
+.product{
+    color: #f3c614;
+}
+
+.paragraph-technology{
+    background-color: rgba(193, 174, 174, 0.185);
+    padding: 30px 60px;
+    color: aliceblue;
+    border-radius: 2px;
+}
+
+.box-paragraph-technology{
+    margin: 100px;
+}
+
+.Project-Delivery{
+    color: #f3c614;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* إطار أبيض بنسبة شفافية 30% */
+    padding: 10px 20px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.contact{
+    background-color: whitesmoke;
+    height: 200vh;
+}
+
+.box-1-contact{
+    padding-top: 120px;
+}
+
+.box-2-contact{
+    text-align: center;
+}
+
+.contact-box-contact{
+    background-color: rgb(225, 242, 255);
+    color: #1c4981;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+
+.step-box-contact{
+    font-size: 55px;
+    font-weight: 800;
+    color: #0b2545;
+}
+
+.SeparatesYou{
+    color: #1c4981;
+}
+
+.pre-box-contact{
+    color: #0b2545;
+    font-size: 21px;
+}
+
+.form{
+    background-color: white;
+    margin: 100px;
+    padding: 50px;
+    height: 120vh;
+    box-shadow: 0px 5px 10px gainsboro;
+}
+
+.form-text{
+    color: #0b2545;
+    font-size: 35px;
+    font-weight: 850;
+}
+
+.name{
+    color: #0b2545;
+    font-weight: 700;
+}
+
+.fname{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: solid 1px gainsboro;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.number{
+    color: #0b2545;
+    font-weight: 700;
+}
+
+.mobaile{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: solid 1px gainsboro;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.inquirie{
+    color: #0b2545;
+    font-weight: 700;
+}
+
+
+.inquiries{
+    width: 102%;
+    height: 70px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border: solid 1px gainsboro;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.msg{
+    color: #0b2545;
+    font-weight: 700;
+}
+
+.message{
+    width: 101%;
+    height: 200px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border: solid 1px gainsboro;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.form-button{
+    width: 102%;
+    height: 70px;
+    color: #0b2545;
+    background-color: rgb(225, 225, 26);
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 23px;
+    font-weight: 550;
+    border: solid 1px gainsboro;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer{
+    height: 5vh;
+    background-color: #0b2545;
+    color: whitesmoke;
+    text-align: center;
+    padding: 23px;
+}
+
+.footer-span{
+    color: #f3c614;
+}
